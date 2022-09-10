@@ -1,0 +1,78 @@
+@media (max-width: 620px) {
+    .header-container { 
+        padding: 0 0px;
+        gap: 10px;
+    }
+    .checkbox-container {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home  {
+        height: 480px;
+    }
+    .indice {
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .foto {
+        height: 150px;
+        justify-content: center;
+        top: 15%;  
+        transition: 0.5s ease-in-out 0s; 
+ }
+
+    .nome {
+        font-size: 19px;
+        margin: 0%;
+        padding: 0;
+        text-align: absolute; 
+        line-height: 2em;
+    }
+
+    .front {
+        font-size: 18px;
+        margin: 0%;
+        padding: 0;
+       
+    }
+  
+    .social-media {
+        transition: 0.5s ease-in-out;
+    }
+
+    .card{
+        width: 200px;
+        height: 200px;
+    }
+
+    .card-wrapper::before {
+        border: 0px solid #ffffff ;
+    }
+
+    .card-wrapper h2 {
+        font-size: 25px;
+        
+    }
+
+    .card-wrapper p {
+        font-size: 5px;
+    }
+
+
+    .card-text {
+        font-size: 20px;
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .card-text .breve {
+        width: 100px;
+        height: 100px;
+    }
+}
